@@ -1,0 +1,2 @@
+# Integer Overflow Bug in Hack Function
+This repository demonstrates a potential integer overflow bug in a simple Hack function. The `foo` function adds 1 to the input if it's greater than 10 and subtracts 1 otherwise.  However, if the input `x` is sufficiently large, the addition `x + 1` could result in an integer overflow. This repository illustrates this, and provides a solution that mitigates the risk.
